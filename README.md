@@ -14,7 +14,9 @@ Google app password.
 
 https://support.google.com/mail/answer/185833
 
-### Request body example
+### Request example
+
+`POST` `/api/v1/secret-santa`
 
 ```
 {

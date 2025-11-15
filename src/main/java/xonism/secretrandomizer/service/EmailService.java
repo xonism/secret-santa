@@ -31,6 +31,7 @@ public class EmailService {
 
         try {
             MimeMessageHelper mimeMessageHelper = new MimeMessageHelper(mimeMessage);
+            mimeMessageHelper.setValidateAddresses(true);
             mimeMessageHelper.setFrom(from);
             mimeMessageHelper.setTo(email.to());
             mimeMessageHelper.setSubject(email.subject());

@@ -10,9 +10,7 @@ Google email address that you want to send emails from.
 
 `MAIL_PASSWORD`
 
-Google app password.
-
-https://support.google.com/mail/answer/185833
+Google app password ([link](https://support.google.com/mail/answer/185833)).
 
 ### Request example
 

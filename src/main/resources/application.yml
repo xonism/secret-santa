@@ -12,3 +12,9 @@ spring:
           auth: true
           starttls:
             enable: true
+            required: true
+          # "certain default timeout values are infinite,
+          # and you may want to change that to avoid having a thread blocked by an unresponsive mail server"
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
